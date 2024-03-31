@@ -1,15 +1,24 @@
+// Importing required modules
+
+// Express module for handling HTTP requests
 const express= require("express");
 const res = require("express/lib/response");
-const app= express();
+// FS for file system operations
 const fs = require('fs');
+// Winston for logging
 const winston = require('winston');
+
+// Creating an Express application instance
+const app= express();
+
+//Creating a logger instance using winston
 const logger = winston.createLogger({
     level: 'info',
     format: winston.format.json(),
     defaultMeta: { service: 'calculate-microservice' },
     transports: [
 
-      //This will write logs to the console
+      //This will write log messages to the console
       new winston.transports.Console({
         format: winston.format.simple(),
         }),
