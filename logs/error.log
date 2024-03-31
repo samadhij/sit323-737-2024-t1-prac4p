@@ -1,0 +1,2 @@
+{"level":"error","message":"num2 is incorrectly defined","service":"calculate-microservice"}
+{"level":"error","message":"cannot divide by zero","service":"calculate-microservice"}

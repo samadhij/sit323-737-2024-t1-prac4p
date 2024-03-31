@@ -1,0 +1,6 @@
+{"level":"info","message":"New addition operation requested: 6 + 3","service":"calculate-microservice"}
+{"level":"info","message":"Parameters 6 and 3 received for addition","service":"calculate-microservice"}
+{"level":"error","message":"num2 is incorrectly defined","service":"calculate-microservice"}
+{"level":"info","message":"New division operation requested: 6 / 3","service":"calculate-microservice"}
+{"level":"info","message":"Parameters 6 and 3 received for division","service":"calculate-microservice"}
+{"level":"error","message":"cannot divide by zero","service":"calculate-microservice"}
